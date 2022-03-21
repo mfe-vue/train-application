@@ -7,11 +7,13 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "serve:standalone": "vue-cli-service serve --mode standalone"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "register-service-worker": "^1.7.2",
+    "single-spa-vue": "^2.1.0",
     "vue": "^2.6.14",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
@@ -47,6 +49,7 @@
     "sass-loader": "^12.0.0",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5",
+    "vue-cli-plugin-single-spa": "~3.3.0",
     "vue-template-compiler": "^2.6.14"
   },
   "gitHooks": {
